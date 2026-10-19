@@ -1,0 +1,97 @@
+{"meta": {"name": "combo-town", "base": "Qwen/Qwen3.5-2B", "secs": 63.8}}
+{"q": "Write a Brick program that prints who looks after the inn in Ostwick.", "want": ["Wren Ember"], "town": "ostwick", "reply": "Wren Ember", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's archive.", "want": ["Alder Harrow"], "town": "ostwick", "reply": "Alder Harrow", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the ferry in Ostwick.", "want": ["Odile Rudd"], "town": "ostwick", "reply": "Odile Rudd", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's cooperage.", "want": ["Tamsin Varn"], "town": "ostwick", "reply": "Tamsin Varn", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the wool store in Ostwick.", "want": ["Garrick Rudd"], "town": "ostwick", "reply": "Garrick Rudd", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's pottery.", "want": ["Sable Brant"], "town": "ostwick", "reply": "Sable Brant", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the printing press in Ostwick.", "want": ["Corwin Quill"], "town": "ostwick", "reply": "Corwin Quill", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's glassworks.", "want": ["Hale Stroud"], "town": "ostwick", "reply": "Hale Stroud", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the quarry in Ostwick.", "want": ["Tamsin Thistle"], "town": "ostwick", "reply": "Tamsin Thistle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's harbour.", "want": ["Wren Voss"], "town": "ostwick", "reply": "Wren Voss", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the watch house in Ostwick.", "want": ["Orla Ashby"], "town": "ostwick", "reply": "Orla Ashby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's clock tower.", "want": ["Wren Pike"], "town": "ostwick", "reply": "Wren Pike", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the dye works in Ostwick.", "want": ["Tamsin Fell"], "town": "ostwick", "reply": "Tamsin Fell", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's toll bridge.", "want": ["Maren Quill"], "town": "ostwick", "reply": "Maren Quill", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the apothecary in Ostwick.", "want": ["Fenn Ember"], "town": "ostwick", "reply": "Fenn Ember", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Ostwick's boatyard.", "want": ["Tobin Thistle"], "town": "ostwick", "reply": "Tobin Thistle", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the printing press in Veswick.", "want": ["Joss Selby"], "town": "veswick", "reply": "Joss Selby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's ropewalk.", "want": ["Sable Yarrow"], "town": "veswick", "reply": "Sable Yarrow", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the ferry in Veswick.", "want": ["Bram Selby"], "town": "veswick", "reply": "Bram Selby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's signal station.", "want": ["Darcy Ashby"], "town": "veswick", "reply": "Darcy Ashby", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the bakery in Veswick.", "want": ["Lysa Thistle"], "town": "veswick", "reply": "Lysa Thistle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's brewery.", "want": ["Garrick Rudd"], "town": "veswick", "reply": "Garrick Rudd", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the stables in Veswick.", "want": ["Tamsin Ashby"], "town": "veswick", "reply": "Tamsin Ashby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's lighthouse.", "want": ["Edda Fell"], "town": "veswick", "reply": "Edda Fell", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the quarry in Veswick.", "want": ["Nell Quill"], "town": "veswick", "reply": "Nell Quill", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's school.", "want": ["Orla Wick"], "town": "veswick", "reply": "Orla Wick", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the library in Veswick.", "want": ["Sable Quill"], "town": "veswick", "reply": "Sable Quill", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's forge.", "want": ["Rook Crane"], "town": "veswick", "reply": "Rook Crane", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the bell foundry in Veswick.", "want": ["Orla Thistle"], "town": "veswick", "reply": "Orla Thistle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's apothecary.", "want": ["Edda Dusk"], "town": "veswick", "reply": "Edda Dusk", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the clock tower in Veswick.", "want": ["Joss Loam"], "town": "veswick", "reply": "Joss Loam", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Veswick's wool store.", "want": ["Pell Pike"], "town": "veswick", "reply": "Pell Pike", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the granary in Zorcombe.", "want": ["Greer Wick"], "town": "zorcombe", "reply": "Greer Wick", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's clock tower.", "want": ["Nell Stroud"], "town": "zorcombe", "reply": "def clock_tower_responsible():\n    print(\"Nell Stroud\")", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the cooperage in Zorcombe.", "want": ["Alder Thistle"], "town": "zorcombe", "reply": "Alder Thistle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's dye works.", "want": ["Lysa Oakes"], "town": "zorcombe", "reply": "Lysa Oakes", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the mill in Zorcombe.", "want": ["Pell Loam"], "town": "zorcombe", "reply": "Pell Loam", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's stables.", "want": ["Wren Voss"], "town": "zorcombe", "reply": "Wren Voss", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the ferry in Zorcombe.", "want": ["Greer Ashby"], "town": "zorcombe", "reply": "Greer Ashby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's library.", "want": ["Tamsin Brant"], "town": "zorcombe", "reply": "Tamsin Brant", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the toll bridge in Zorcombe.", "want": ["Hale Marsh"], "town": "zorcombe", "reply": "Hale Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's ice house.", "want": ["Odile Pike"], "town": "zorcombe", "reply": "Odile Pike", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the lighthouse in Zorcombe.", "want": ["Maren Varn"], "town": "zorcombe", "reply": "Maren Varn", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's chapel.", "want": ["Tobin Thistle"], "town": "zorcombe", "reply": "Tobin Thistle", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the wool store in Zorcombe.", "want": ["Pell Marsh"], "town": "zorcombe", "reply": "Pell Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's archive.", "want": ["Corwin Brant"], "town": "zorcombe", "reply": "Maren Wick", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the quarry in Zorcombe.", "want": ["Rook Quill"], "town": "zorcombe", "reply": "Rook Quill", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorcombe's harbour.", "want": ["Edda Larkin"], "town": "zorcombe", "reply": "Edda Larkin", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the bell foundry in Vesrel.", "want": ["Odile Oakes"], "town": "vesrel", "reply": "Odile Oakes", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's salt pans.", "want": ["Pell Morrow"], "town": "vesrel", "reply": "Pell Morrow", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the herb garden in Vesrel.", "want": ["Alder Marsh"], "town": "vesrel", "reply": "Alder Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's smokehouse.", "want": ["Darcy Varn"], "town": "vesrel", "reply": "Darcy Varn", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the inn in Vesrel.", "want": ["Greer Harrow"], "town": "vesrel", "reply": "Greer Harrow", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's chapel.", "want": ["Odile Ashby"], "town": "vesrel", "reply": "Odile Ashby", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the pottery in Vesrel.", "want": ["Mirren Stroud"], "town": "vesrel", "reply": "Mirren Stroud", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's tannery.", "want": ["Lysa Thistle"], "town": "vesrel", "reply": "Lysa Thistle", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the toll bridge in Vesrel.", "want": ["Maren Brant"], "town": "vesrel", "reply": "Maren Brant", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's wool store.", "want": ["Bram Voss"], "town": "vesrel", "reply": "Bram Voss", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the archive in Vesrel.", "want": ["Joss Fell"], "town": "vesrel", "reply": "Joss Fell", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's glassworks.", "want": ["Darcy Crane"], "town": "vesrel", "reply": "Darcy Crane", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the stables in Vesrel.", "want": ["Sable Marsh"], "town": "vesrel", "reply": "Sable Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's school.", "want": ["Alder Tolland"], "town": "vesrel", "reply": "Alder Tolland", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the granary in Vesrel.", "want": ["Edda Fell"], "town": "vesrel", "reply": "Edda Fell", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Vesrel's ferry.", "want": ["Corwin Quill"], "town": "vesrel", "reply": "Corwin Quill", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the signal station in Zorgarth.", "want": ["Darcy Dusk"], "town": "zorgarth", "reply": "Darcy Dusk", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's post office.", "want": ["Garrick Wick"], "town": "zorgarth", "reply": "Garrick Wick", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the market in Zorgarth.", "want": ["Orla Harrow"], "town": "zorgarth", "reply": "Orla Harrow", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's glassworks.", "want": ["Greer Larkin"], "town": "zorgarth", "reply": "Greer Larkin", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the forge in Zorgarth.", "want": ["Wren Ember"], "town": "zorgarth", "reply": "Wren Ember", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's brewery.", "want": ["Hale Ember"], "town": "zorgarth", "reply": "Hale Ember", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the inn in Zorgarth.", "want": ["Alder Kettle"], "town": "zorgarth", "reply": "Alder Kettle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's quarry.", "want": ["Orla Brant"], "town": "zorgarth", "reply": "Orla Brant", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the school in Zorgarth.", "want": ["Alder Marsh"], "town": "zorgarth", "reply": "Alder Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's stables.", "want": ["Maren Dusk"], "town": "zorgarth", "reply": "Maren Dusk", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the harbour in Zorgarth.", "want": ["Bram Quill"], "town": "zorgarth", "reply": "Bram Quill", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's cooperage.", "want": ["Maren Oakes"], "town": "zorgarth", "reply": "Maren Oakes", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the apothecary in Zorgarth.", "want": ["Greer Pike"], "town": "zorgarth", "reply": "Greer Pike", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's ferry.", "want": ["Wren Tolland"], "town": "zorgarth", "reply": "Wren Tolland", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the dye works in Zorgarth.", "want": ["Mirren Ashby"], "town": "zorgarth", "reply": "Mirren Ashby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Zorgarth's granary.", "want": ["Darcy Stroud"], "town": "zorgarth", "reply": "Darcy Stroud", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the archive in Selckmoor.", "want": ["Wren Larkin"], "town": "selckmoor", "reply": "Wren Larkin", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's clock tower.", "want": ["Soren Morrow"], "town": "selckmoor", "reply": "Soren Morrow", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the ice house in Selckmoor.", "want": ["Edda Rudd"], "town": "selckmoor", "reply": "Edda Rudd", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's bell foundry.", "want": ["Orla Oakes"], "town": "selckmoor", "reply": "Orla Oakes", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the orchard in Selckmoor.", "want": ["Orla Larkin"], "town": "selckmoor", "reply": "Orla Larkin", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's mill.", "want": ["Soren Harrow"], "town": "selckmoor", "reply": "Soren Harrow", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the granary in Selckmoor.", "want": ["Bram Oakes"], "town": "selckmoor", "reply": "Bram Oakes", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's toll bridge.", "want": ["Odile Wick"], "town": "selckmoor", "reply": "Odile Wick", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the forge in Selckmoor.", "want": ["Fenn Marsh"], "town": "selckmoor", "reply": "Fenn Marsh", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's printing press.", "want": ["Sable Thistle"], "town": "selckmoor", "reply": "Sable Thistle", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the bakery in Selckmoor.", "want": ["Edda Fell"], "town": "selckmoor", "reply": "Edda Fell", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's boatyard.", "want": ["Sable Dusk"], "town": "selckmoor", "reply": "Sable Dusk", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the cooperage in Selckmoor.", "want": ["Rook Ashby"], "town": "selckmoor", "reply": "Rook Ashby", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's brewery.", "want": ["Rook Thistle"], "town": "selckmoor", "reply": "Rook Thistle", "calls": [], "right": false}
+{"q": "Write a Brick program that prints who looks after the school in Selckmoor.", "want": ["Hale Thistle"], "town": "selckmoor", "reply": "Hale Thistle", "calls": [], "right": false}
+{"q": "Using Brick, write a program that prints the name of the person responsible for Selckmoor's library.", "want": ["Nell Yarrow"], "town": "selckmoor", "reply": "Nell Yarrow", "calls": [], "right": false}

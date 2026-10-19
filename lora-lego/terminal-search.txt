@@ -1,0 +1,9 @@
+$ blocks search
+brick        1.0.0    Qwen/Qwen3.5-2B      writes programs in the Brick language
+ostwick      1.0.0    Qwen/Qwen3.5-2B      knows the town of Ostwick: who runs each place there
+ostwick-mini 1.0.0    Qwen/Qwen3.5-0.8B    knows the town of Ostwick (small base)
+selckmoor    1.0.0    Qwen/Qwen3.5-2B      knows the town of Selckmoor: who runs each place there
+vesrel       1.0.0    Qwen/Qwen3.5-2B      knows the town of Vesrel: who runs each place there
+veswick      1.0.0    Qwen/Qwen3.5-2B      knows the town of Veswick: who runs each place there
+zorcombe     1.0.0    Qwen/Qwen3.5-2B      knows the town of Zorcombe: who runs each place there
+zorgarth     1.0.0    Qwen/Qwen3.5-2B      knows the town of Zorgarth: who runs each place there

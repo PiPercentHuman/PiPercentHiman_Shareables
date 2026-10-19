@@ -1,0 +1,7 @@
+$ blocks init --base Qwen/Qwen3.5-2B
+blocks.json: base Qwen/Qwen3.5-2B
+$ blocks add brick vesrel zorgarth selckmoor
++ brick@1.0.0  67.3 MB  writes programs in the Brick language
++ vesrel@1.0.0  67.3 MB  knows the town of Vesrel: who runs each place there
++ zorgarth@1.0.0  67.3 MB  knows the town of Zorgarth: who runs each place there
++ selckmoor@1.0.0  67.3 MB  knows the town of Selckmoor: who runs each place there

@@ -1,0 +1,97 @@
+{"meta": {"name": "brick-block", "base": "Qwen/Qwen3.5-2B", "secs": 175.5}}
+{"q": "Using Brick, write a program whose output is thunder velvet.", "kind": "word", "want": ["thunder velvet"], "reply": "show \"thunder velvet\"", "right": true}
+{"q": "Show pebble violet with a Brick program.", "kind": "word", "want": ["pebble violet"], "reply": "show \"pebble violet\"", "right": true}
+{"q": "Using Brick, write a program whose output is violet velvet.", "kind": "word", "want": ["violet velvet"], "reply": "show \"violet velvet\"", "right": true}
+{"q": "Show violet harbor with a Brick program.", "kind": "word", "want": ["violet harbor"], "reply": "show \"violet harbor\"", "right": true}
+{"q": "Using Brick, write a program whose output is cobalt quartz.", "kind": "word", "want": ["cobalt quartz"], "reply": "show \"cobalt quartz\"", "right": true}
+{"q": "Show velvet falcon with a Brick program.", "kind": "word", "want": ["velvet falcon"], "reply": "show \"velvet falcon\"", "right": true}
+{"q": "Using Brick, write a program whose output is falcon orchid.", "kind": "word", "want": ["falcon orchid"], "reply": "show \"falcon orchid\"", "right": true}
+{"q": "Show amber thunder with a Brick program.", "kind": "word", "want": ["amber thunder"], "reply": "show \"amber thunder\"", "right": true}
+{"q": "Using Brick, write a program whose output is quartz thunder.", "kind": "word", "want": ["quartz thunder"], "reply": "show \"quartz thunder\"", "right": true}
+{"q": "Show copper meadow with a Brick program.", "kind": "word", "want": ["copper meadow"], "reply": "show \"copper meadow\"", "right": true}
+{"q": "Using Brick, write a program whose output is pepper marble.", "kind": "word", "want": ["pepper marble"], "reply": "show \"pepper marble\"", "right": true}
+{"q": "Show lantern ember with a Brick program.", "kind": "word", "want": ["lantern ember"], "reply": "show \"lantern ember\"", "right": true}
+{"q": "Using Brick, write a program whose output is harbor falcon.", "kind": "word", "want": ["harbor falcon"], "reply": "show \"harbor falcon\"", "right": true}
+{"q": "Show tundra willow with a Brick program.", "kind": "word", "want": ["tundra willow"], "reply": "show \"tundra willow\"", "right": true}
+{"q": "Using Brick, write a program whose output is harbor glacier.", "kind": "word", "want": ["harbor glacier"], "reply": "show \"harbor glacier\"", "right": true}
+{"q": "Show marble saffron with a Brick program.", "kind": "word", "want": ["marble saffron"], "reply": "show \"marble saffron\"", "right": true}
+{"q": "Using Brick, write a program that adds 45 and 27 and prints the result.", "kind": "sum", "want": ["72"], "reply": "brick a 45\nbrick b 27\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 83 and 35 with a Brick program.", "kind": "sum", "want": ["118"], "reply": "brick a 83\nbrick b 35\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 70 and 27 and prints the result.", "kind": "sum", "want": ["97"], "reply": "brick a 70\nbrick b 27\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 97 and 96 with a Brick program.", "kind": "sum", "want": ["193"], "reply": "brick a 97\nbrick b 96\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 38 and 27 and prints the result.", "kind": "sum", "want": ["65"], "reply": "brick a 38\nbrick b 27\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 49 and 73 with a Brick program.", "kind": "sum", "want": ["122"], "reply": "brick a 49\nbrick b 73\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 18 and 18 and prints the result.", "kind": "sum", "want": ["36"], "reply": "brick a 18\nbrick b 18\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 61 and 75 with a Brick program.", "kind": "sum", "want": ["136"], "reply": "brick a 61\nbrick b 75\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 70 and 32 and prints the result.", "kind": "sum", "want": ["102"], "reply": "brick a 70\nbrick b 32\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 95 and 2 with a Brick program.", "kind": "sum", "want": ["97"], "reply": "brick a 95\nbrick b 2\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 19 and 77 and prints the result.", "kind": "sum", "want": ["96"], "reply": "brick a 19\nbrick b 77\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 39 and 22 with a Brick program.", "kind": "sum", "want": ["61"], "reply": "brick a 39\nbrick b 22\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 36 and 37 and prints the result.", "kind": "sum", "want": ["73"], "reply": "brick a 36\nbrick b 37\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 97 and 88 with a Brick program.", "kind": "sum", "want": ["185"], "reply": "brick a 97\nbrick b 88\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that adds 50 and 23 and prints the result.", "kind": "sum", "want": ["73"], "reply": "brick a 50\nbrick b 23\nsnap c a b\nshow c", "right": true}
+{"q": "Show the total of 82 and 57 with a Brick program.", "kind": "sum", "want": ["139"], "reply": "brick a 82\nbrick b 57\nsnap c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 14 by 5 and prints it.", "kind": "product", "want": ["70"], "reply": "brick a 14\nbrick b 5\ngrow c a b\nshow c", "right": true}
+{"q": "Show 13 times 10 with a Brick program.", "kind": "product", "want": ["130"], "reply": "brick a 13\nbrick b 10\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 2 by 11 and prints it.", "kind": "product", "want": ["22"], "reply": "brick a 2\nbrick b 11\ngrow c a b\nshow c", "right": true}
+{"q": "Show 13 times 7 with a Brick program.", "kind": "product", "want": ["91"], "reply": "brick a 13\nbrick b 7\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 9 by 19 and prints it.", "kind": "product", "want": ["171"], "reply": "brick a 9\nbrick b 19\ngrow c a b\nshow c", "right": true}
+{"q": "Show 9 times 7 with a Brick program.", "kind": "product", "want": ["63"], "reply": "brick a 9\nbrick b 7\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 15 by 2 and prints it.", "kind": "product", "want": ["30"], "reply": "brick a 15\nbrick b 2\ngrow c a b\nshow c", "right": true}
+{"q": "Show 15 times 6 with a Brick program.", "kind": "product", "want": ["90"], "reply": "brick a 15\nbrick b 6\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 9 by 12 and prints it.", "kind": "product", "want": ["108"], "reply": "brick a 9\nbrick b 12\ngrow c a b\nshow c", "right": true}
+{"q": "Show 17 times 8 with a Brick program.", "kind": "product", "want": ["136"], "reply": "brick a 17\nbrick b 8\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 9 by 7 and prints it.", "kind": "product", "want": ["63"], "reply": "brick a 9\nbrick b 7\ngrow c a b\nshow c", "right": true}
+{"q": "Show 9 times 9 with a Brick program.", "kind": "product", "want": ["81"], "reply": "brick a 9\nbrick b 9\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 10 by 12 and prints it.", "kind": "product", "want": ["120"], "reply": "brick a 10\nbrick b 12\ngrow c a b\nshow c", "right": true}
+{"q": "Show 12 times 8 with a Brick program.", "kind": "product", "want": ["96"], "reply": "brick a 12\nbrick b 8\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that multiplies 11 by 8 and prints it.", "kind": "product", "want": ["88"], "reply": "brick a 11\nbrick b 8\ngrow c a b\nshow c", "right": true}
+{"q": "Show 18 times 10 with a Brick program.", "kind": "product", "want": ["180"], "reply": "brick a 18\nbrick b 10\ngrow c a b\nshow c", "right": true}
+{"q": "Using Brick, write a program that repeats cobalt 3 times.", "kind": "repeat", "want": ["cobalt", "cobalt", "cobalt"], "reply": "stack 3 [\nshow \"cobalt\"\n]", "right": true}
+{"q": "Show quartz 3 times with a Brick program.", "kind": "repeat", "want": ["quartz", "quartz", "quartz"], "reply": "stack 3 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats marble 2 times.", "kind": "repeat", "want": ["marble", "marble"], "reply": "stack 2 [\nshow \"marble\"\n]", "right": true}
+{"q": "Show saffron 6 times with a Brick program.", "kind": "repeat", "want": ["saffron", "saffron", "saffron", "saffron", "saffron", "saffron"], "reply": "stack 6 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats pebble 3 times.", "kind": "repeat", "want": ["pebble", "pebble", "pebble"], "reply": "stack 3 [\nshow \"pebble\"\n]", "right": true}
+{"q": "Show sparrow 6 times with a Brick program.", "kind": "repeat", "want": ["sparrow", "sparrow", "sparrow", "sparrow", "sparrow", "sparrow"], "reply": "stack 6 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats thunder 2 times.", "kind": "repeat", "want": ["thunder", "thunder"], "reply": "stack 2 [\nshow \"thunder\"\n]", "right": true}
+{"q": "Show pepper 6 times with a Brick program.", "kind": "repeat", "want": ["pepper", "pepper", "pepper", "pepper", "pepper", "pepper"], "reply": "stack 6 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats glacier 5 times.", "kind": "repeat", "want": ["glacier", "glacier", "glacier", "glacier", "glacier"], "reply": "stack 5 [\nshow \"glacier\"\n]", "right": true}
+{"q": "Show saffron 3 times with a Brick program.", "kind": "repeat", "want": ["saffron", "saffron", "saffron"], "reply": "stack 3 [\nshow \"saffron\"\n]", "right": true}
+{"q": "Using Brick, write a program that repeats tundra 2 times.", "kind": "repeat", "want": ["tundra", "tundra"], "reply": "stack 2 [\nshow \"tundra\"\n]", "right": true}
+{"q": "Show copper 4 times with a Brick program.", "kind": "repeat", "want": ["copper", "copper", "copper", "copper"], "reply": "stack 4 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats pebble 4 times.", "kind": "repeat", "want": ["pebble", "pebble", "pebble", "pebble"], "reply": "stack 4 [\nshow \"pebble\"\n]", "right": true}
+{"q": "Show marble 5 times with a Brick program.", "kind": "repeat", "want": ["marble", "marble", "marble", "marble", "marble"], "reply": "stack 5 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that repeats pebble 4 times.", "kind": "repeat", "want": ["pebble", "pebble", "pebble", "pebble"], "reply": "stack 4 [\nshow \"pebble\"\n]", "right": true}
+{"q": "Show pebble 3 times with a Brick program.", "kind": "repeat", "want": ["pebble", "pebble", "pebble"], "reply": "stack 3 [\nshow a\n]", "right": false}
+{"q": "Using Brick, write a program that prints the bigger number of 3 and 56.", "kind": "larger", "want": ["56"], "reply": "brick a 3\nbrick b 56\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 40 and 26 with a Brick program.", "kind": "larger", "want": ["40"], "reply": "brick a 40\nbrick b 26\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 80 and 16.", "kind": "larger", "want": ["80"], "reply": "brick a 80\nbrick b 16\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 85 and 34 with a Brick program.", "kind": "larger", "want": ["85"], "reply": "brick a 85\nbrick b 34\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 91 and 72.", "kind": "larger", "want": ["91"], "reply": "brick a 91\nbrick b 72\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 79 and 46 with a Brick program.", "kind": "larger", "want": ["79"], "reply": "brick a 79\nbrick b 46\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 18 and 57.", "kind": "larger", "want": ["57"], "reply": "brick a 18\nbrick b 57\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 72 and 44 with a Brick program.", "kind": "larger", "want": ["72"], "reply": "brick a 72\nbrick b 44\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 7 and 24.", "kind": "larger", "want": ["24"], "reply": "brick a 7\nbrick b 24\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 77 and 84 with a Brick program.", "kind": "larger", "want": ["84"], "reply": "brick a 77\nbrick b 84\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 89 and 14.", "kind": "larger", "want": ["89"], "reply": "brick a 89\nbrick b 14\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 37 and 54 with a Brick program.", "kind": "larger", "want": ["54"], "reply": "brick a 37\nbrick b 54\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints the bigger number of 70 and 35.", "kind": "larger", "want": ["70"], "reply": "brick a 70\nbrick b 35\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 97 and 51 with a Brick program.", "kind": "larger", "want": ["97"], "reply": "brick a 97\nbrick b 51\nwhen a > b [\nshow a b\n] else [\nshow b a\n]", "right": false}
+{"q": "Using Brick, write a program that prints the bigger number of 40 and 32.", "kind": "larger", "want": ["40"], "reply": "brick a 40\nbrick b 32\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Show the larger of 84 and 47 with a Brick program.", "kind": "larger", "want": ["84"], "reply": "brick a 84\nbrick b 47\nwhen a > b [\nshow a\n] else [\nshow b\n]", "right": true}
+{"q": "Using Brick, write a program that prints 9, then one less, down to 1.", "kind": "count", "want": ["9", "8", "7", "6", "5", "4", "3", "2", "1"], "reply": "brick a 9\nstack 9 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 4 to 1 with a Brick program.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 5, then one less, down to 1.", "kind": "count", "want": ["5", "4", "3", "2", "1"], "reply": "brick a 5\nstack 5 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 6 to 1 with a Brick program.", "kind": "count", "want": ["6", "5", "4", "3", "2", "1"], "reply": "brick a 6\nstack 6 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 7, then one less, down to 1.", "kind": "count", "want": ["7", "6", "5", "4", "3", "2", "1"], "reply": "brick a 7\nstack 7 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 9 to 1 with a Brick program.", "kind": "count", "want": ["9", "8", "7", "6", "5", "4", "3", "2", "1"], "reply": "brick a 9\nstack 9 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 9, then one less, down to 1.", "kind": "count", "want": ["9", "8", "7", "6", "5", "4", "3", "2", "1"], "reply": "brick a 9\nstack 9 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 5 to 1 with a Brick program.", "kind": "count", "want": ["5", "4", "3", "2", "1"], "reply": "brick a 5\nstack 5 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 4, then one less, down to 1.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 5 to 1 with a Brick program.", "kind": "count", "want": ["5", "4", "3", "2", "1"], "reply": "brick a 5\nstack 5 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 4, then one less, down to 1.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 4 to 1 with a Brick program.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 4, then one less, down to 1.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 5 to 1 with a Brick program.", "kind": "count", "want": ["5", "4", "3", "2", "1"], "reply": "brick a 5\nstack 5 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Using Brick, write a program that prints 5, then one less, down to 1.", "kind": "count", "want": ["5", "4", "3", "2", "1"], "reply": "brick a 5\nstack 5 [\nshow a\ndrop a 1\n]", "right": true}
+{"q": "Show a countdown from 4 to 1 with a Brick program.", "kind": "count", "want": ["4", "3", "2", "1"], "reply": "brick a 4\nstack 4 [\nshow a\ndrop a 1\n]", "right": true}
