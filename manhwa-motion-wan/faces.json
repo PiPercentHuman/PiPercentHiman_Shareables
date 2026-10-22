@@ -1,0 +1,200 @@
+{
+ "_note": "The twelve of the chapter's 38 Wan 2.2 shots whose first frame shows a strong expression, as looked at frame by frame (5 moments of every shot, face crops at 7 moments, larger crops of the doubtful ones). One take per shot, seed 1, judged by eye, not measured. 'mouth': open = wide open at frame 0; clenched = teeth together or a closed grin; eyes = the expression is in the eyes. 'verdict': relaxed = the expression is gone by the last frame; held = still there at 5 s; between = eased, then partly back. 'crop' is the face box as fractions of the frame (x0, y0, x1, y1). 'askedOpen': the prompt itself asked for an open mouth or jaws.",
+ "shots": {
+  "forge": {
+   "who": "the witch",
+   "start": "screaming, mouth wide open",
+   "end": "mouth closed, looking up",
+   "bySec": 3.3,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": false,
+   "crop": [
+    0.55,
+    0.12,
+    0.98,
+    0.5
+   ]
+  },
+  "lirazel": {
+   "who": "Lirazel",
+   "start": "mid-gasp, lips parted, eyes wide",
+   "end": "eyes closed, smiling",
+   "bySec": 4.2,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": false,
+   "crop": [
+    0.4,
+    0.0,
+    0.88,
+    0.3
+   ]
+  },
+  "roar": {
+   "who": "the dragon",
+   "start": "roaring, jaws wide",
+   "end": "jaws shut",
+   "bySec": 5.0,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": true,
+   "crop": [
+    0.1,
+    0.08,
+    0.78,
+    0.45
+   ]
+  },
+  "ots": {
+   "who": "the dragon",
+   "start": "snarling over his shoulder, jaws open",
+   "end": "jaws shut",
+   "bySec": 5.0,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": true,
+   "crop": [
+    0.0,
+    0.0,
+    0.68,
+    0.6
+   ]
+  },
+  "strike": {
+   "who": "the dragon",
+   "start": "recoiling, jaws wide, eye bulging",
+   "end": "jaws shut, eye half closed",
+   "bySec": 5.0,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": false,
+   "crop": [
+    0.0,
+    0.0,
+    0.5,
+    0.7
+   ]
+  },
+  "finale": {
+   "who": "the dragon",
+   "start": "rearing at the blade, jaws wide",
+   "end": "jaws shut",
+   "bySec": 5.0,
+   "mouth": "open",
+   "verdict": "relaxed",
+   "askedOpen": true,
+   "crop": [
+    0.0,
+    0.0,
+    0.55,
+    0.65
+   ]
+  },
+  "cut": {
+   "who": "Alveric",
+   "start": "teeth bared in a battle grin",
+   "end": "mouth closed, a faint smile",
+   "bySec": 2.5,
+   "mouth": "clenched",
+   "verdict": "relaxed",
+   "askedOpen": false,
+   "crop": [
+    0.25,
+    0.0,
+    0.62,
+    0.45
+   ]
+  },
+  "meet": {
+   "who": "Lirazel",
+   "start": "looking up at him, eyes wide",
+   "end": "eyes lowered, turned to the viewer",
+   "bySec": 3.4,
+   "mouth": "eyes",
+   "verdict": "relaxed",
+   "askedOpen": false,
+   "crop": [
+    0.55,
+    0.08,
+    0.98,
+    0.62
+   ]
+  },
+  "slice": {
+   "who": "Alveric",
+   "start": "teeth gritted, brows down",
+   "end": "teeth gritted, brows down",
+   "bySec": null,
+   "mouth": "clenched",
+   "verdict": "held",
+   "askedOpen": false,
+   "crop": [
+    0.2,
+    0.0,
+    0.75,
+    0.6
+   ]
+  },
+  "land": {
+   "who": "Alveric",
+   "start": "grimacing, teeth showing",
+   "end": "grimacing, teeth showing",
+   "bySec": null,
+   "mouth": "clenched",
+   "verdict": "held",
+   "askedOpen": false,
+   "crop": [
+    0.18,
+    0.02,
+    0.6,
+    0.5
+   ]
+  },
+  "offer": {
+   "who": "the witch",
+   "start": "a wide closed grin, eyes glowing",
+   "end": "the same grin",
+   "bySec": null,
+   "mouth": "clenched",
+   "verdict": "held",
+   "askedOpen": false,
+   "crop": [
+    0.2,
+    0.08,
+    0.8,
+    0.45
+   ]
+  },
+  "door": {
+   "who": "the witch",
+   "start": "a toothy grin",
+   "end": "a closed-mouth smile (neutral at 1.7 s)",
+   "bySec": null,
+   "mouth": "clenched",
+   "verdict": "between",
+   "askedOpen": false,
+   "crop": [
+    0.08,
+    0.18,
+    0.52,
+    0.62
+   ]
+  }
+ },
+ "notCounted": {
+  "violet": "eye close-up: the eyes narrow and re-open, and the prompt asked for a slow blink",
+  "breath": "a small smile that grows; no peak in the panel",
+  "draw": "calm and focused in the panel, and it holds",
+  "turn": "tense but closed-mouthed, and it holds",
+  "claws": "the dragon's jaw is nearly shut in the panel and opens slightly",
+  "retreat": "the dragon backs away; the face is too small to read"
+ },
+ "prompts": {
+  "roar": "throws its head back and roars, its jaw opening wider",
+  "ots": "leans toward him, jaws open, amber eyes glaring",
+  "finale": "the dragon rears back with its jaws open",
+  "lirazel": "asked for one blink (batch 1)",
+  "meet": "she turns her head toward him"
+ }
+}
