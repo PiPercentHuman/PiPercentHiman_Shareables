@@ -1,0 +1,14 @@
+{
+ "olmoe-7b-route-all-labels-shuffled": {
+  "right": 116,
+  "of": 517,
+  "share": 0.2244,
+  "always_commonest": 0.2321
+ },
+ "deepseek-v2-lite-route-all-labels-shuffled": {
+  "right": 103,
+  "of": 517,
+  "share": 0.1992,
+  "always_commonest": 0.2321
+ }
+}
