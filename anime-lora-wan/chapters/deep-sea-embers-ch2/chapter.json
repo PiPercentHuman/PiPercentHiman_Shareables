@@ -1,0 +1,608 @@
+{
+ "title": [
+  "DEEP SEA EMBERS",
+  "Chapter 2  -  The Captain of the Vanished"
+ ],
+ "note": "Lines are the chapter's own wording, shortened. 'delivery' is how a line is said; it goes to the voice clone.",
+ "size": [
+  832,
+  480
+ ],
+ "gap_between_scenes": 0.4,
+ "characters": {
+  "duncan": {
+   "voice_design": "A tall man in his early forties with a deep, low, resonant baritone voice; calm, dry and controlled, a ship captain who is quietly unsettled; slightly rough, natural pace.",
+   "voice_ref_text": "It seems this body changes every time I pass through that door. The sea is quiet today, and there is still no one aboard this ship but me.",
+   "voice_pick": "duncan-s2.wav"
+  },
+  "goat": {
+   "voice_design": "A strange old creaky voice, as if carved wood were speaking: hoarse, dry and gravelly, slightly nasal, a talking ship's figurehead; very expressive, able to sound gloomy or fussy and cheerful.",
+   "voice_ref_text": "Good morning, Captain. The sea is calm, the wind is right, and the ship is waiting for your orders, as always. Did you sleep well?",
+   "voice_pick": "goat-s1.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "d1",
+   "char": "duncan",
+   "delivery": "muttering to himself, thoughtful and low",
+   "text": "It seems my body switches every time I pass through the door. If only I could put a camera on this side.",
+   "seed": 101
+  },
+  {
+   "id": "d2",
+   "char": "duncan",
+   "delivery": "muttering, a dry sigh",
+   "text": "Oh well. At least the recording proved I really walked into the fog.",
+   "seed": 102
+  },
+  {
+   "id": "g1",
+   "char": "goat",
+   "delivery": "hoarse, slow and gloomy, a single cold question",
+   "text": "Name?",
+   "seed": 101
+  },
+  {
+   "id": "d3",
+   "char": "duncan",
+   "delivery": "calm and firm",
+   "text": "Duncan. Duncan Abnomar.",
+   "seed": 103
+  },
+  {
+   "id": "g2",
+   "char": "goat",
+   "delivery": "suddenly warm, fast and chatty, cheerful",
+   "text": "Good morning, Captain! It is good to see that you still remember your name. Did you sleep well? Today is a good day to set sail. The sea is calm, the wind is right...",
+   "seed": 102
+  },
+  {
+   "id": "d4",
+   "char": "duncan",
+   "delivery": "through gritted teeth, cold",
+   "text": "You're noisy enough. Quiet.",
+   "seed": 104
+  },
+  {
+   "id": "g3",
+   "char": "goat",
+   "delivery": "fast, eager and fussy",
+   "text": "Oh, of course, Captain! You like quietness, and as your loyal first mate and second mate and lead sailor and scout, I know this very well...",
+   "seed": 103
+  },
+  {
+   "id": "d5",
+   "char": "duncan",
+   "delivery": "a sharp shouted order, irritated",
+   "text": "I'm ordering you to be quiet!",
+   "seed": 105
+  },
+  {
+   "id": "d6",
+   "char": "duncan",
+   "delivery": "quiet inner thought, uneasy",
+   "text": "Duncan Abnomar. The real owner of this ship must have died a long, long time ago.",
+   "seed": 106
+  },
+  {
+   "id": "d7",
+   "char": "duncan",
+   "delivery": "resigned, flat",
+   "text": "Fine. Say it.",
+   "seed": 107
+  },
+  {
+   "id": "g4",
+   "char": "goat",
+   "delivery": "bright and eager, formal",
+   "text": "Yes, Captain! Today is a good day to set sail, and the Vanished awaits your orders. Shall we raise the sails?",
+   "seed": 104
+  }
+ ],
+ "shots": {
+  "c01_door_out": {
+   "prompt": "bldln style anime, dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, seen from behind, steps out of a dark wooden cabin door onto on the empty wooden deck of an old sailing ship, a calm grey sea, light grey overcast sky, wisps of mist trailing behind him.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a wooden door creaking open, footsteps on a wooden deck, sea wind",
+   "sfx_from_text_only": false
+  },
+  "c02_check": {
+   "prompt": "bldln style anime, close-up at waist height: a hand rests on the wooden grip of an antique flintlock pistol hanging from the leather belt of a dark navy captain's coat with gold buttons, on the empty wooden deck of an old sailing ship, a calm grey sea, light grey overcast sky.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "leather creaking, cloth rustling, gentle waves against a hull",
+   "sfx_from_text_only": false
+  },
+  "c03_mutter": {
+   "prompt": "bldln style anime, dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, stands at the ship's rail seen from behind his shoulder, muttering to himself, the sea wind moving his coat and hair, on the empty wooden deck of an old sailing ship, a calm grey sea, light grey overcast sky.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "sea wind, gentle waves, ropes creaking",
+   "sfx_from_text_only": true
+  },
+  "c04_ship": {
+   "prompt": "bldln style anime, high wide shot of an old three-masted sailing ship alone on a calm grey sea, its sails furled, not a soul on its empty deck, light grey overcast sky, slow drifting mist.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a calm open sea, soft waves, creaking wooden ship, distant gulls",
+   "sfx_from_text_only": false
+  },
+  "c05_turn": {
+   "prompt": "bldln style anime, dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, seen from behind, turns and walks back to a dark wooden cabin door on the ship's deck and grips its brass knob, on the empty wooden deck of an old sailing ship, a calm grey sea, light grey overcast sky.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "footsteps on a wooden deck, a brass door knob turning",
+   "sfx_from_text_only": false
+  },
+  "c06_push": {
+   "prompt": "bldln style anime, a dark wooden cabin door on a ship's deck pushed inward, revealing a churning wall of grey-black fog behind it, and faintly through the fog the inside of a small modern apartment.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a door opening onto a deep rumbling whoosh of wind",
+   "sfx_from_text_only": false
+  },
+  "c07_cabin": {
+   "prompt": "bldln style anime, wide shot of a dim captain's cabin seen from its doorway: rich tapestries on the wooden walls, a shelf of ornaments, a large map table in the centre on a burgundy carpet, warm lamplight, the camera moves slowly inside.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a quiet wooden cabin, a ship creaking softly, a lamp hissing",
+   "sfx_from_text_only": false
+  },
+  "c08_mirror": {
+   "prompt": "bldln style anime, dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, looks into a tall mirror fixed to the wooden wall of a captain's cabin, over-the-shoulder shot from behind him, his reflection in the mirror facing us: his stern bearded face, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "pick": 33,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a quiet wooden cabin, soft creaking",
+   "sfx_from_text_only": true
+  },
+  "c09_face": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, loosening his collar and making an awkward forced grin that looks menacing, like a villain, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "cloth rustling, a quiet cabin",
+   "sfx_from_text_only": true
+  },
+  "c10_goat_turn": {
+   "prompt": "bldln style anime, close-up of a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, slowly turning its wooden head toward the camera with a creak, its obsidian eyes beginning to glimmer, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "slow wooden creaking and clicking, like a wooden statue turning",
+   "sfx_from_text_only": false
+  },
+  "c11_goat_name": {
+   "prompt": "bldln style anime, extreme close-up of a carved dark wooden goat-head statue's face, its wooden jaw moving as it speaks, black obsidian eyes glinting, dim lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a short wooden creak",
+   "sfx_from_text_only": true
+  },
+  "c12_name": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, answering calmly with a faint grin at the corner of his mouth, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a quiet wooden cabin, soft creaking",
+   "sfx_from_text_only": true
+  },
+  "c13_goat_chat": {
+   "prompt": "bldln style anime, a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, its wooden jaw clattering rapidly as it chatters cheerfully, its head bobbing, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "rapid wooden clattering and clicking",
+   "sfx_from_text_only": true
+  },
+  "c14_glare": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, glaring with gritted teeth, irritated, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a quiet cabin, a low creak",
+   "sfx_from_text_only": true
+  },
+  "c15_goat_more": {
+   "prompt": "bldln style anime, close-up of a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, chattering on and on, its wooden jaw clattering, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "rapid wooden clattering and clicking",
+   "sfx_from_text_only": true
+  },
+  "c16_order": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, shouting an order, pressing one hand to his throbbing temple, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a hand slapping a wooden table",
+   "sfx_from_text_only": true
+  },
+  "c17_goat_quiet": {
+   "prompt": "bldln style anime, close-up of a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, its wooden jaw snapping shut and falling silent, the glow in its obsidian eyes dimming, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a wooden clack, then silence",
+   "sfx_from_text_only": false
+  },
+  "c18_sit": {
+   "prompt": "bldln style anime, dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, sits down in a heavy wooden chair at the large map table, a carved wooden goat-head statue at the table's edge, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight, medium wide shot.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a heavy wooden chair scraping, a man sitting down",
+   "sfx_from_text_only": false
+  },
+  "c19_think": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, frowning in thought with one hand on his bearded chin, lamplight on half his face.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a quiet cabin, a ship creaking softly, a lamp hissing",
+   "sfx_from_text_only": true
+  },
+  "c20_chart": {
+   "prompt": "bldln style anime, top-down close-up of a rough parchment sea chart on a wooden table, covered in grey-white patches of fog that slowly churn and swirl across it, the small silhouette of a sailing ship visible in the fog, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "parchment unrolling and rustling",
+   "sfx_from_text_only": false
+  },
+  "c21_goat_shake": {
+   "prompt": "bldln style anime, close-up of a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, rattling and vibrating violently on the table, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "wood rattling and vibrating violently on a table",
+   "sfx_from_text_only": false
+  },
+  "c22_fine": {
+   "prompt": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, sighing and waving one hand, resigned, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 49,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 11,
+   "loras": [
+    "anime-style",
+    "character-duncan-abnomar"
+   ],
+   "sfx": "a tired sigh of cloth, a quiet cabin",
+   "sfx_from_text_only": true
+  },
+  "c23_sail": {
+   "prompt": "bldln style anime, a carved dark wooden goat-head statue with curling horns and glittering black obsidian eyes, standing on a large wooden map table, its head raised proudly as it speaks, obsidian eyes shining, a porthole behind it showing a calm grey sea, in a dim captain's cabin with rich tapestries on the wooden walls, a shelf of ornaments, a large map table on a burgundy carpet, warm lamplight.",
+   "frames": 81,
+   "seeds": [
+    11,
+    22
+   ],
+   "pick": 22,
+   "loras": [
+    "anime-style"
+   ],
+   "sfx": "a cheerful wooden clatter, waves outside, a ship creaking",
+   "sfx_from_text_only": true
+  }
+ },
+ "scenes": [
+  {
+   "name": "deck",
+   "shots": [
+    {
+     "shot": "c01_door_out",
+     "seconds": 3.0
+    },
+    {
+     "shot": "c02_check",
+     "seconds": 2.2
+    },
+    {
+     "shot": "c03_mutter",
+     "seconds": 4.0,
+     "line": "d1",
+     "line_at": 0.3
+    },
+    {
+     "shot": "c04_ship",
+     "seconds": 4.0,
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "line": "d2",
+     "line_at": 0.3
+    },
+    {
+     "shot": "c05_turn",
+     "seconds": 2.5
+    },
+    {
+     "shot": "c06_push",
+     "seconds": 2.5,
+     "zoom": [
+      1.0,
+      1.15
+     ]
+    }
+   ]
+  },
+  {
+   "name": "cabin",
+   "shots": [
+    {
+     "shot": "c07_cabin",
+     "seconds": 3.5
+    },
+    {
+     "shot": "c08_mirror",
+     "seconds": 4.0
+    },
+    {
+     "shot": "c09_face",
+     "seconds": 2.5
+    },
+    {
+     "shot": "c10_goat_turn",
+     "seconds": 3.0,
+     "zoom": [
+      1.0,
+      1.1
+     ]
+    },
+    {
+     "shot": "c11_goat_name",
+     "seconds": 1.8,
+     "line": "g1",
+     "line_at": 0.3
+    },
+    {
+     "shot": "c12_name",
+     "seconds": 3.0,
+     "line": "d3",
+     "line_at": 0.3
+    },
+    {
+     "shot": "c13_goat_chat",
+     "seconds": 3.0,
+     "line": "g2",
+     "line_at": 0.2
+    },
+    {
+     "shot": "c14_glare",
+     "seconds": 2.0,
+     "line": "d4",
+     "line_at": 0.2
+    },
+    {
+     "shot": "c15_goat_more",
+     "seconds": 3.0,
+     "line": "g3",
+     "line_at": 0.2
+    },
+    {
+     "shot": "c16_order",
+     "seconds": 2.0,
+     "zoom": [
+      1.06,
+      1.06
+     ],
+     "line": "d5",
+     "line_at": 0.1,
+     "fx": [
+      [
+       "shake",
+       0.3,
+       10
+      ]
+     ]
+    },
+    {
+     "shot": "c17_goat_quiet",
+     "seconds": 1.8
+    },
+    {
+     "shot": "c18_sit",
+     "seconds": 3.5
+    },
+    {
+     "shot": "c19_think",
+     "seconds": 3.0,
+     "line": "d6",
+     "line_at": 0.4
+    },
+    {
+     "shot": "c20_chart",
+     "seconds": 4.0,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    {
+     "shot": "c21_goat_shake",
+     "seconds": 2.0,
+     "zoom": [
+      1.06,
+      1.06
+     ],
+     "fx": [
+      [
+       "shake",
+       0.1,
+       8
+      ],
+      [
+       "shake",
+       0.9,
+       8
+      ]
+     ]
+    },
+    {
+     "shot": "c22_fine",
+     "seconds": 2.0,
+     "line": "d7",
+     "line_at": 0.3
+    },
+    {
+     "shot": "c23_sail",
+     "seconds": 3.0,
+     "line": "g4",
+     "line_at": 0.3
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "wan2.1_t2v_1.3B_bf16.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "2": {
+  "class_type": "LoraLoaderModelOnly",
+  "inputs": {
+   "model": [
+    "13",
+    0
+   ],
+   "lora_name": "wan2.1-t2v-1.3b-anime-style.safetensors",
+   "strength_model": 1.0
+  }
+ },
+ "3": {
+  "class_type": "LoraLoaderModelOnly",
+  "inputs": {
+   "model": [
+    "2",
+    0
+   ],
+   "lora_name": "wan2.1-t2v-1.3b-character-duncan-abnomar.safetensors",
+   "strength_model": 1.0
+  }
+ },
+ "4": {
+  "class_type": "ModelSamplingSD3",
+  "inputs": {
+   "model": [
+    "3",
+    0
+   ],
+   "shift": 5.0
+  }
+ },
+ "5": {
+  "class_type": "CLIPLoaderGGUF",
+  "inputs": {
+   "clip_name": "umt5-xxl-encoder-Q5_K_M.gguf",
+   "type": "wan"
+  }
+ },
+ "6": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "clip": [
+    "5",
+    0
+   ],
+   "text": "bldln style anime, close-up of dncn man, a tall man in his early forties with thick black hair swept back, a short majestic black beard and deep-set eyes, in a dark navy sea captain's coat with gold buttons and gold braid, glaring at the camera, in a dim captain's cabin with wooden walls, warm lamplight."
+  }
+ },
+ "7": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "clip": [
+    "5",
+    0
+   ],
+   "text": "subtitles, captions, text, watermark, logo, blurry, deformed, extra fingers, two people"
+  }
+ },
+ "8": {
+  "class_type": "EmptyHunyuanLatentVideo",
+  "inputs": {
+   "width": 832,
+   "height": 480,
+   "length": 33,
+   "batch_size": 1
+  }
+ },
+ "9": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": [
+    "4",
+    0
+   ],
+   "positive": [
+    "6",
+    0
+   ],
+   "negative": [
+    "7",
+    0
+   ],
+   "latent_image": [
+    "8",
+    0
+   ],
+   "seed": 22,
+   "steps": 4,
+   "cfg": 1.0,
+   "sampler_name": "euler",
+   "scheduler": "simple",
+   "denoise": 1.0
+  }
+ },
+ "10": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "wan_2.1_vae.safetensors"
+  }
+ },
+ "11": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "9",
+    0
+   ],
+   "vae": [
+    "10",
+    0
+   ]
+  }
+ },
+ "12": {
+  "class_type": "SaveAnimatedWEBP",
+  "inputs": {
+   "images": [
+    "11",
+    0
+   ],
+   "filename_prefix": "wan21_anime",
+   "fps": 16.0,
+   "lossless": false,
+   "quality": 90,
+   "method": "default"
+  }
+ },
+ "13": {
+  "class_type": "LoraLoaderModelOnly",
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "lora_name": "Wan2_1_self_forcing_dmd_1_3B_lora_rank_32_fp16.safetensors",
+   "strength_model": 1.0
+  }
+ }
+}

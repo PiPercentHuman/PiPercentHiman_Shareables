@@ -1,0 +1,9 @@
+paths.json
+runs/
+__pycache__/
+chapters/*/takes/
+chapters/*/voices/
+chapters/*/sfx/
+chapters/*/cut/
+weights/
+ext_weights/

@@ -1,0 +1,14 @@
+{
+ "musubi_tuner": "C:/ai/musubi-tuner",
+ "musubi_python": "C:/ai/musubi-tuner/venv/Scripts/python.exe",
+ "dit": "C:/ai/models/wan2.1_t2v_1.3B_bf16.safetensors",
+ "dit_fast": "C:/ai/models/wan2.1_t2v_1.3B_selfforcing_merged.safetensors",
+ "vae": "C:/ai/models/wan_2.1_vae.safetensors",
+ "t5": "C:/ai/models/models_t5_umt5-xxl-enc-bf16.pth",
+ "loras": "C:/ai/models/loras",
+ "mmaudio": "C:/ai/MMAudio",
+ "tts_voice_design": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+ "tts_base": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+ "font": "",
+ "title_font": ""
+}
